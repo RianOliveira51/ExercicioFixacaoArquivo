@@ -40,6 +40,6 @@ public class Produto {
     }
 
     public String toString(){
-        return name + "," + String.format("%.2f", price) + quant + "," + String.format("%.2f", total());
+        return name + ", R$ " + String.format("%.2f", price) + quant + ", " + String.format("%.2f",total());
     }
 }
