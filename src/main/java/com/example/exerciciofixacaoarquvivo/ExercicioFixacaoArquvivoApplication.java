@@ -65,7 +65,10 @@ public class ExercicioFixacaoArquvivoApplication {
             System.out.println("Error reading file: " + e.getMessage());
         }
 
+        System.out.println("Teste");
         sc.close();
+
+
     }
 
 }
